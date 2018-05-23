@@ -1,7 +1,7 @@
 # AnsiEscapes
 Utility Java per l'utilizzo di ANSI ESCAPES. Implementa i colori a 3/4 bit (i colori a 16 o 256 bit non sono supportati) e alcuni comandi (solo quelli supportati dalla maggior parte dei terminali).
 
-#Installazione
+# Installazione
 Scaricare l'archivio zip `AnsiEscapesSample.zip` che contiene la seguente struttura:
 
 ~~~
@@ -15,7 +15,7 @@ src
 
 Copiare la cartella `org` nella propria cartella di lavoro (oppure aggiungerla alla `CLASSPATH`). 
 
-#Utilizzo
+# Utilizzo
 La classe `AnsiEscapes` esporta solo membri statici, è suffciente invocare i metodi e utilizzare le costanti facendo riferimento alla classe. Esempio:
 
 ~~~java
@@ -46,7 +46,7 @@ public class AnsiTest {
 }
 ~~~
 
-#Documentazione
+# Documentazione
 La documentazione in formato Javadoc della classe `AnsiEscapes` si trova nell'archivio `AnsiEscapesDoc.zip`.
 
 
